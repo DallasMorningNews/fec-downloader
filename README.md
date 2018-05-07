@@ -8,27 +8,33 @@ This downloader CLI aims to solve that for bulk queries that are commonly-reques
 
 - Python 3
 
-## Installation
+#### From Github
 
-1. Clone the Github repo:
-  ```
-  $ git clone git@github.com:DallasMorningNews/fec-downloader.git
-  ```
+1. Install directly from Github using `pipenv` or `pip`:
+    ```sh
+    $ pipenv install -e git+git@github.com:DallasMorningNews/fec-downloader.git#egg=fecdownloader
+    ```
 
-2. Step into the directory and install using `pip`:
-  ```
-  $ cd fec-downloader
-  $ pip install .
-  ```
+#### Locally (more advanced)
 
-3. Get an API key at https://api.data.gov/signup/.
+Using this option you'll have the `fec` command line tool _and_ you'll be able to alter the tool's code.
 
-3. Enjoy:
-  ```
-  fec --help
-  ```
+1. Clone the repository to your machine and step into the directory.
+
+2. Install (preferably in a virtual environment) using the included setup.py:
+    ```sh
+    $ pipenv install -e .
+    ```
+
+    Or using `pip`:
+
+    ```sh
+    $ pip install .
+    ```
 
 ## Usage
+
+You'll need to get an API key at https://api.data.gov/signup/ to do much of the below.
 
 The `--help` command provides a list of available commands and all query parameters for individual commands are documented at the command line (`fec sub-command --help`). In general, though, there are a few common behaviors across all of the below:
 
