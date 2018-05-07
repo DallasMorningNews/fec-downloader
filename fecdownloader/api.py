@@ -28,7 +28,7 @@ def add_default_params(params):
     return req_params
 
 
-def multiyear_api_request(endpoint, params={}, start_year=1980, end_year=2016):
+def multiyear_api_request(endpoint, params={}, start_year=1980, end_year=2018):
     api_url = get_api_url(endpoint)
     req_params = add_default_params(params)
 

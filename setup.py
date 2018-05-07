@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='fecdownloader',
-    version='0.1',
+    version='0.1.1',
     description='Bulk downloader for FEC data.',
     url='http://github.com/DallasMorningNews/fec-downloader',
     author='Andrew Chavez',
