@@ -12,7 +12,7 @@ This downloader CLI aims to solve that for bulk queries that are commonly-reques
 
 1. Install directly from Github using `pipenv` or `pip`:
     ```sh
-    $ pipenv install -e git+git@github.com:DallasMorningNews/fec-downloader.git#egg=fecdownloader
+    $ pipenv install -e "git+git@github.com/DallasMorningNews/fec-downloader.git#egg=fecdownloader"
     ```
 
 #### Locally (more advanced)
